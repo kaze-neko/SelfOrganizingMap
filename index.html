@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SelfOrganizingMap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="map"></canvas>
+  <div id="menu">
+    <button id="teach-button" onclick="som.teach()">Teach</button>
+    <button id="teach-all-button">Teach all</button>
+    <button id="teach-0-button" onclick="som.renderForParam(0)">Temperature</button>
+    <button id="teach-1-button" onclick="som.renderForParam(1)">Humidity</button>
+    <button id="teach-2-button" onclick="som.renderForParam(2)">Wind</button>
+    <input type="text" id="custom-input" placeholder="your input...">
+    <button id="find-winner-for-cusom-input">Show on map</button>
+  </div>
+  <script type="module" src="som.js"></script>
+</body>
+</html>

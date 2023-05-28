@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 150px;
+  margin-left: 25px;
+}
+
+#menu * {
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+#custom-input {
+  text-align: center;
+  margin-top: 15px;
+}
